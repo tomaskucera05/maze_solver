@@ -97,7 +97,6 @@ def stuck():
         visited_stuck.add((robot_row, robot_col))
         robot_row = new_row
         robot_col = new_col
-        move_stuck = 0
         time.sleep(0.3)
     else:
         move_stuck = (move_stuck + 1) % 4
